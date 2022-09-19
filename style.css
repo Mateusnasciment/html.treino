@@ -1,0 +1,33 @@
+.d1 {
+    width: 400px;
+    height: 300px;
+    padding: 200px;
+    background: rgb(172, 68, 158);
+    -moz-transform: rotate(1deg) skew(10deg, -1deg);
+    -webkit-transform: rotate(1deg) skew(10deg, -1deg);
+    -o-transform: rotate(1deg) skew(10deg, -1deg);
+    -ms-transform: rotate(1deg) skew(10deg, -1deg);
+    transform: rotate(1deg) skew(10deg, -1deg);
+    
+}
+.form {
+    border : 14px solid rgb(192, 48, 161);
+    width: 400px;
+    height: 300px;
+    padding: 200px;
+    background: rgb(172, 68, 158);
+}
+.card {
+    position: relative;
+width: 800px;
+height: 800px;
+left: 200.5px;
+top: 41.08px;
+z-index: -1;
+background: #080000;
+border: 10px solid rgba(197, 204, 228, 0.4);
+border-radius: 40px;
+}
+.image {
+    border-radius: 200px;
+}
