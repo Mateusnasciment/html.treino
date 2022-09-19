@@ -1,3 +1,12 @@
+body{
+    padding: 100px;
+    border-radius: 1000;
+}
+.d1 {
+    border-radius: 100px;
+
+}
+
 .d1 {
     width: 400px;
     height: 300px;
@@ -10,24 +19,27 @@
     transform: rotate(1deg) skew(10deg, -1deg);
     
 }
-.form {
-    border : 14px solid rgb(192, 48, 161);
-    width: 400px;
-    height: 300px;
+.contato {
+    width: 300px;
+    height: 200px;
     padding: 200px;
-    background: rgb(172, 68, 158);
+    background-color: rgb(235, 189, 189);
+    border-color: rgb(8, 0, 0);
 }
 .card {
     position: relative;
 width: 800px;
-height: 800px;
+height: 600px;
 left: 200.5px;
 top: 41.08px;
 z-index: -1;
-background: #080000;
+background: #b9b8b8;
 border: 10px solid rgba(197, 204, 228, 0.4);
 border-radius: 40px;
 }
-.image {
-    border-radius: 200px;
+.image , .dog  {
+    border-radius: 31px;
+}
+.contato {
+    border-radius: 100px;
 }
